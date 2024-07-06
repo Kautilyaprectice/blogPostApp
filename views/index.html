@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create Blog</title>
+</head>
+<body>
+    <div class="mainForm">
+        <h1>Create a New Blog Post</h1>
+        <form id="blogForm">
+            Blog Title: <input type="text" name="blogTitle" placeholder="Blog Title" id="blogTitle">
+            <br><br>
+            Blog Author: <input type="text" name="blogAuthor" placeholder="Blog Author" id="blogAuthor">
+            <br><br>
+            Blog Content: <textarea name="blogContent" id="blogContent"></textarea>
+            <br><br>
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+    <hr>
+    <br><br>
+
+    <div id="blogDetails"></div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.21.4/axios.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
